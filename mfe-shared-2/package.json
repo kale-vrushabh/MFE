@@ -1,5 +1,5 @@
 {
-  "name": "mfe-shared",
+  "name": "mfe-two",
   "version": "1.0.0",
   "main": "index.js",
   "author": "kale-vrushabh <vrushabh.kale@emtecinc.com>",
@@ -19,11 +19,5 @@
     "webpack": "^5.75.0",
     "webpack-cli": "^5.0.0",
     "webpack-dev-server": "^4.11.1"
-  },
-  "devDependencies": {
-    "@svgr/webpack": "^6.5.1",
-    "css-loader": "^6.7.2",
-    "file-loader": "^6.2.0",
-    "style-loader": "^3.3.1"
   }
 }

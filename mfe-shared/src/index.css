@@ -1,0 +1,16 @@
+input{
+    border: none;
+    border-bottom: 1px solid grey;
+    margin: 5px;
+}
+input:focus{
+    outline: none;
+    border-bottom: 1px solid rgb(116, 204, 2);
+}
+button{
+    border: 1px solid rgb(116, 204, 2);
+    border-radius: 3px;
+    background: rgb(143, 251, 2);
+    text-transform: lowercase;
+    padding: 2px 4px;
+}
