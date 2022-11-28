@@ -48,12 +48,14 @@ module.exports = {
       name: "shared2",
       filename: "remoteEntry.js",
       exposes: {
-        "./button": "./src/container/button",
+        "./getData": "./src/container/getData.js",
         "./App": "./src/App",
       },
       shared: {
         ...deps,
         react: { singleton: true, eager: true, requiredVersion: deps.react },
+        axios: { singleton: true, eager: true, requiredVersion: deps.axios },
+
         "react-dom": {
           singleton: true,
           eager: true,

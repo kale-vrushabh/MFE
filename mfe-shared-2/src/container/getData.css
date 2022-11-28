@@ -1,0 +1,11 @@
+.card-container {display: flex; flex-wrap: wrap;}
+.card {    border: 1px solid grey;
+    padding: 5px;
+    width: 16%;
+    border-radius: 5px;
+    margin: 5px;}
+.top{font-weight: 700;
+    font-size: x-large;
+    text-align: center;
+    color: red;}
+.middle{margin: 5px;}
